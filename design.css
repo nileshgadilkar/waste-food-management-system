@@ -1,0 +1,236 @@
+/* design.css */
+
+/* Body styles */
+body {
+  font-family:Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color:#7b9c89;
+  padding: 40px;
+}
+
+header h1 {
+  margin: 0;
+  color: #0e0d0d;
+  font-size: 35px;
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+nav ul {
+  list-style-type:circle;
+  padding: 5;
+  margin: 0;
+  text-align: right;
+
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+
+}
+
+nav ul li a {
+  text-decoration:underline;
+  color: #080808;
+  font-size: 19px;
+}
+
+/* Main styles */
+.main {
+  padding: 20px;
+}
+
+.hero {
+  padding: 40px;
+  text-align: center;
+  border: 25px, #032210 ;
+  border-radius: 25px;
+  background-color: #3cc575;
+  margin: 5%;
+  outline-style: dashed;
+  outline-color:rgb(8, 8, 8);
+}
+
+
+.hero h2 {
+  margin-top: 25;
+  font-size: 36px;
+  color: #fdfafa;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #faf9f9;
+  margin-bottom: 25px;
+}
+
+.hero button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color:teal;
+  color: #fff;
+  border: coral;
+  cursor:pointer;
+  border-radius: 25px;
+}
+
+.about {
+  background-color: #fff;
+  padding: 40px;
+  border: 25px, #032210 ;
+  border-radius: 25px;
+  background-color: #3cc575;
+  margin: 5%;
+  text-align: center;
+  outline-style: dashed;
+}
+
+.about h2 {
+  font-size: 32px;
+  color: #fcf9f9;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 18px;
+  color: #faf7f7;
+}
+
+.about button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: teal;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+
+}
+
+.donate {
+  background-color: #f9f9f9;
+  padding: 40px;
+  border: 25px, #032210 ;
+  border-radius: 25px;
+  background-color: #3cc575;
+  margin: 5%;
+  outline-style: dashed;
+  outline-color:rgb(0, 7, 7);
+  text-align: center;
+}
+
+.donate h2 {
+  font-size: 32px;
+  color: #fcfafa;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.donate p {
+  font-size: 18px;
+  color: #fcf9f9;
+}
+
+.donate button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: teal;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+
+}
+
+.find {
+  background-color: #fff;
+  padding: 40px;border: 25px, #032210 ;
+  border-radius: 25px;
+  background-color: #3cc575;
+  margin: 5%;
+  outline-style: dashed;
+  outline-color:rgb(0, 7, 7);
+  text-align: center;
+
+}
+
+.find h2 {
+  font-size: 32px;
+  color: #faf7f7;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.find p {
+  font-size: 18px;
+  color: #fcfbfb;
+}
+
+.find button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: teal;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+/* Contact styles */
+#contact-us {
+  background-color: #f9f9f9;
+  padding: 40px;
+  border-radius: 25px;
+  background-color: #7b9c89;
+  margin: 5%;
+  outline-style: dashed;
+  outline-color:rgb(0, 7, 7);
+  text-align: center;
+
+}
+
+#contact-us h2 {
+  font-size: 32px;
+  color: #020202;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+#contact-us p {
+  font-size: 25px;
+  color: #0f0f0f;
+}
+
+#contact-us ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#contact-us ul li {
+  margin-bottom: 10px;
+}
+
+#contact-us ul li strong {
+  font-weight: bold;
+}
+
+#contact-us ul li a {
+  color: #333;
+}
+
+/* Footer styles */
+footer {
+  background-color: #2d2e2d;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+}
