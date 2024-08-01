@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 2</title>
+    <link rel="stylesheet" href="donate.css">
+
+</head>
+<body>
+    <h1>Donate Food</h1>
+    <main>
+        <section id="donate-food">
+
+          <!DOCTYPE html>
+          <html>
+          <head>
+            <title>Details for Donation</title>
+            <link rel="stylesheet" type="text/css" href="styles.css">
+          </head>
+          <body>
+            <h2>Fill Details for Donation</h2>
+            
+            <form action="donate.php" method="POST">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required><br><br>
+              
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required><br><br>
+              
+              <label for="phone">Phone:</label>
+              <input type="tel" id="phone" name="phone" required><br><br>
+              
+              <label for="address">Address:</label>
+              <textarea id="address" name="address" required></textarea><br><br>
+              
+              <label for="foodType">Food Type:</label>
+              <select id="foodType" name="foodType" required>
+                <option value="">Select an option</option>
+                <option value="Vegetables">Vegetables</option>
+                <option value="Fruits">Fruits</option>
+                <option value="Grains">Grains</option>
+                <option value="Meat">Meat</option>
+                <option value="Dairy">Dairy</option>
+              </select><br><br>
+              
+              <label for="quantity">Quantity (in kg):</label>
+              <input type="number" id="quantity" name="quantity" required><br><br>
+              
+              <label for="pickupDate">Preferred Pickup Date:</label>
+              <input type="date" id="pickupDate" name="pickupDate" required><br><br>
+              
+              <label for="pickupTime">Preferred Pickup Time:</label>
+              <input type="time" id="pickupTime" name="pickupTime" required><br><br>
+              
+              <input type="submit" value="Submit">
+            </form>
+          </body>
+          </html>
+          
+
+          </section>
+    </main>
+    <a href="index.html"><button>HomePage</button></a>
+
+</body>
+</html>
